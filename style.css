@@ -3,6 +3,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 h1{
     color:white;
     background-color: blueviolet;
@@ -15,12 +16,8 @@ h1{
 h2{
     text-align: center;
 }
-button{
-    color:white;
-    background-color: blueviolet;
-    border-radius: 5px;    
+form{
+    text-align: center;
 }
-button:active{
-    background-color: white;
-    color: blueviolet;
-}
+
+

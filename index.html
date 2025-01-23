@@ -10,12 +10,14 @@
 <body>
     <main>
         <h1>Gerador de Textos</h1>
-        <h2>Entre com os tópicos:</h2>
-  
-        <button>Gerar</button>
+        <h2><label for="topico">Entre com os tópicos:</label></h2>
+        <form action="script.js" method="get" autocomplete="off">
+            <p><input type="text" name="topico" id="topico" required minlength="10" placeholder="-Topico1; ..."></p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        
         <h2>Resultado</h2>
         <h3>Titulo:</h3>
-
         <h3>Texto:</h3>
 
     </main>
